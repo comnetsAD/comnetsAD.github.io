@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style>
+	      /* Set the size of the div element that contains the map */
+	      #map {
+	        height: 400px;  /* The height is 400 pixels */
+	        width: 100%;  /* The width is the width of the web page */
+	       }
+    	</style>
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>ComNets NYUAD</title>
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body>
+		
+		<div id="site-content">
+			<div class="container">
+				<header class="site-header">
+					<a href="index.html" id="branding" class="pull-left">
+						<img src="http://168.235.81.111/images/logo.png" alt="" class="logo">
+						<div class="logo-text">
+							<h1 class="site-title">ComNets</h1>
+							<Large class="site-description">Communication Networks Lab</Large>
+						</div>
+					</a>
+
+					<!-- Default snippet for navigation -->
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="people.html">People</a></li>
+							<li class="menu-item"><a href="publications.html">Publications</a></li>
+							<!-- <li class="menu-item"><a href="gallery.html">Gallery</a></li> -->
+							<!-- <li class="menu-item"><a href="contact.html">Contact</a></li> -->
+						</ul> <!-- .menu -->
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+				</header> <!-- .site-header -->
+				
+				<div class="home-slider">
+					<ul class="slides">
+						<li data-bg-image="images/cn1.jpg">
+							<!-- <div class="slide-content">
+								<h2 class="slide-title" style="background: rgba(0, 0, 0, 0.5);">4G Measurements</h2>
+								<p style="color:white; background: rgba(0, 0, 0, 0.5);">Collecting 4G channel traces under different mobility scenarios.</p>
+								<a href="#" class="button">Read more</a>
+							</div> -->
+						</li>
+						<li data-bg-image="images/cn2.jpg">
+							<!-- <div class="slide-content">
+								<h2 class="slide-title" style="background: rgba(0, 0, 0, 0.5);">ACM SigCom 2015</h2>
+								<p style="color:white; background: rgba(0, 0, 0, 0.5);">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam quis nostrud exercitation.</p>
+								<a href="#" class="button">Read more</a>
+							</div> -->
+						</li>
+						<li data-bg-image="images/cn3.jpg">
+							<!-- <div class="slide-content">
+								<h2 class="slide-title" style="background: rgba(0, 0, 0, 0.5); line-height: 1.2;">Verus Measurements</h2>
+								<p style="color:white; background: rgba(0, 0, 0, 0.5);">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam quis nostrud exercitation.</p>
+								<a href="#" class="button">Read more</a>
+							</div> -->
+						</li>
+					</ul>
+				</div>
+
+				<main class="main-content">
+					
+					<div class="row">
+						<div class="col-md-4">
+							<div class="feature">
+								<div align="center">
+									<img src="images/JSclean.png" height="100">
+									<h2 align="center" class="feature-title">JSCleaner</h2>
+									<small align="center" class="feature-subtitle">Submitted to Hotnets 2019</small>
+								</div>
+								<p align="justify" style="line-height: 1.3;">A JavaScript de-cluttering engine that aims at simplifying web pages without compromising the page content or functionality. JSCleaner uses a classification algorithm that classifies JavaScript into three main categories: non-critical, translatable, and critical scripts. JSCleaner removes the non-critical scripts from a web page, replaces the translatable scripts with their HTML outcomes, and preserves the critical scripts.</p>
+								<!-- <a href="#" class="button">Read more</a> -->
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="feature">
+								<div align="center">
+									<img src="images/mwt.png" height="100">
+									<h2 align="center" class="feature-title">MWT</h2>
+									<small align="center" class="feature-subtitle">Work in progress</small>
+								</div>
+								<p align="justify" style="line-height: 1.3;">The Mobile Web Transformation (MWT) toolkit enables a web administrator to analyze and transform a web page and create a significantly simpler version of the same web page functionally equivalent to the original page using a detailed analysis of objects, object layout, textual and image content of a page. Based on an analysis of MWT on a corpus of popular web pages, we show that MWT produces transformed pages that are significantly smaller in size, loads much faster and yet maintains a strong functional equivalence to the original page.</p>
+								<!-- <a href="#" class="button">Read more</a> -->
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="feature">
+								<div align="center">
+									<img src="images/verus.png" height="100">
+									<h2 align="center" class="feature-title">VERUS</h2>
+									<small align="center" class="feature-subtitle">@Sigcomm 2015</small>
+								</div>
+								<p align="justify" style="line-height: 1.3;">An adaptive congestion control protocol designed for cellular networks. Verus leverages the relation ship between the sending window and the observed network delay by using the delay profile curve. Verus is a delay-based congestion control protocol.</p>
+								<!-- <a href="#" class="button">Read more</a> -->
+							</div>
+						</div>
+					</div>
+
+					<section data-bg-color="#4B0082">
+						<div class="cta-section" >
+							<h2 class="cta-title">Be part of the team</h2>
+							<h3>We are always on the look out for talented people to join the lab. Whether a research summer internship, a research visit, or a longer term position as a post-doc or research assistant. For inquiries please email yasir.zaki (at) nyu.edu. </h3>
+							<!-- <a href="#" class="button">Read more</a> -->
+						</div>
+					</section>
+
+					<div class="row">
+						<div class="col-md-7">
+							<h2 class="section-title">News</h2>
+							<ul class="news">
+								<li>
+									<small class="date">05.08.2019</small>
+									<h2 class="entry-title"><a href="#">Our "Learning Congestion State For mmWave Channels" paper has been accepted at the ACM mmNets 2019 conference...</a></h2>
+								</li>
+								<li>
+									<small class="date">22.12.2018</small>
+									<h2 class="entry-title">Dr. Moumena Shaqfa has joined our lab as a postdoctoral associate. Welcome on board. </h2>
+								</li>
+								<li>
+									<small class="date">30.06.2017</small>
+									<h2 class="entry-title"><a href="#">Our "Xcache: Rethinking Edge Caching" has been accepted at the Information and Communication technologies for Development (ICTD) 2017 conference ...</a></h2>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-4 col-md-offset-1">
+							<h2 class="section-title">September's Events</h2>
+							<table id="wp-calendar">
+								<thead>
+									<tr>
+										<th scope="col" title="Monday">Mon</th>
+										<th scope="col" title="Tuesday">Tue</th>
+										<th scope="col" title="Wednesday">Wed</th>
+										<th scope="col" title="Thursday">Thu</th>
+										<th scope="col" title="Friday">Fri</th>
+										<th scope="col" title="Saturday">Sat</th>
+										<th scope="col" title="Sunday">Sun</th>
+									</tr>
+								</thead>
+						
+								<!-- <tfoot>
+									<tr>
+										<td colspan="3" id="prev"><a href="#">Jan</a>
+										</td>
+										<td class="pad">&nbsp;</td>
+										<td colspan="3" id="next" class="pad">&nbsp;</td>
+									</tr>
+								</tfoot> -->
+						
+								<tbody>
+									<tr>
+										<td colspan="5" class="pad">&nbsp;</td>
+										<td>1</td>
+										<td>2</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td id="today">4</td>
+										<td>5</td>
+										<td>6</td>
+										<td>7</td>
+										<td>8</td>
+										<td>9</td>
+									</tr>
+									<tr>
+										<td>10</td>
+										<td><a href="#"> 
+											<span class="tip">
+												<strong>11 September 2019</strong> A visit from Prof. Manzoor Khan (UAEU). 
+											</span>11</a></td>
+										<td>12</td>
+										<td>13</td>
+										<td>14</td>
+										<td>15</td>
+										<td>16</td>
+									</tr>
+									<tr>
+										<td>17</td>
+										<td>18</td>
+										<td>19</td>
+										<td>20</td>
+										<td>21</td>
+										<td>22</td>
+										<td>23</td>
+									</tr>
+									<tr>
+										<td>24</td>
+										<td>25</td>
+										<td>26</td>
+										<td>27</td>
+										<td>28</td>
+										<td>29</td>
+										<td>30</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+					<iframe width="100%" height="500" style="position:relative;" src="http://maps.google.com/maps?q=(24.524397,54.433151)&z=15&output=embed" width="360" height="270" frameborder="0" style="border:0"></iframe>
+
+
+
+				</main> <!-- .main-content -->
+
+				<footer class="site-footer">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="widget">
+								<h3 class="widget-title">Contact</h3>
+								<address>
+									<strong>ComNets AD</strong>
+									<p>Saadiyat Island<br>Computational Research Building (A2)</p>
+									<!-- <a href="mailto:info@companyname.com">info@companyname.com</a> -->
+									<a href="#">+971 2 6284860</a>
+								</address>
+							</div>
+						</div>
+						<!-- <div class="col-md-4">
+							<div class="widget">
+								<h3 class="widget-title">Information</h3>
+								<ul class="no-bullet">
+									<li><a href="#">Sed ut perspiciatis unde omnis</a></li>
+									<li><a href="#">Sit voluptatem accusantium</a></li>
+									<li><a href="#">Laudantium totam rem aperiam</a></li>
+									<li><a href="#">Ipsa quae ab illo inventore</a></li>
+								</ul>
+							</div>
+						</div> -->
+						<div class="col-md-4">
+							<div class="widget">
+								<h3 class="widget-title">Follow us</h3>
+								<!-- <form action="#" class="newsletter-form">
+									<input type="text" placeholder="Enter your email...">
+									<input type="submit" value="Join">
+								</form> -->
+							</div>
+
+							<div class="widget">
+								<div class="social-links">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-pinterest"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+<!-- 					<div class="colophon">
+						<p>Copyright 2014 Company name. Designed by Themezy. All right reserved</p>
+					</div> -->
+				</footer>
+			</div> <!-- .container -->
+		</div> <!-- #site-content -->
+
+		
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>

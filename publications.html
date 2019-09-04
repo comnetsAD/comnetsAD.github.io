@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>ComNets NYUAD</title>
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<link rel="stylesheet" href="bib-publication-list.css"/>
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body>
+		
+		<div id="site-content">
+			<div class="container">
+				<header class="site-header">
+					<a href="index.html" id="branding" class="pull-left">
+						<img src="images/logo.png" alt="" class="logo">
+						<div class="logo-text">
+							<h1 class="site-title">ComNets</h1>
+							<Large class="site-description">Communication Networks Lab</Large>
+						</div>
+					</a>
+
+					<!-- Default snippet for navigation -->
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="people.html">People</a></li>
+							<li class="menu-item current-menu-item"><a href="publications.html">Publications</a></li>
+							<!-- <li class="menu-item"><a href="gallery.html">Gallery</a></li> -->
+							<!-- <li class="menu-item"><a href="contact.html">Contact</a></li> -->
+						</ul> <!-- .menu -->
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+				</header> <!-- .site-header -->
+
+				<main class="main-content">
+					
+					<h2 class="section-title">Publications</h2>
+<!-- 
+					<p>Donec vitae suscipit est. Mauris vitae fringilla lectus, at iaculis lectus.</p> -->
+
+					<noscript>
+      <!-- bibtex source hidden by default, show it if JS disabled -->
+      <style>
+      #bibtex { display: block;}
+      </style>
+    </noscript>
+		<table id="pubTable" class="display"></table>
+        <pre id="bibtex" style="display:none;">
+ @inproceedings{ACMmmNets,
+ author = {Talal Ahmad and Shiva Iyer and Luis Diez and Yasir Zaki and Ramon Aguero and Lakshminarayanan Subramanian},
+ title = {Learning Congestion State For mmWave Channels},
+ booktitle = {Proceedings of the 3rd ACM Workshop on Millimeter Wave Networks and Sensing Systems},
+ series = {mmNets '19},
+ pages = {},
+ year = {To Appear},
+ address = {Los Cabos, Mexico},
+} 
+
+@inproceedins{DBLP:conf/ictd/RazaZPCS17,
+  author    = {Ali Raza and
+               Yasir Zaki and
+               Thomas P{\"{o}}tsch and
+               Jay Chen and
+               Lakshmi Subramanian},
+  title     = {xCache: Rethinking Edge Caching for Developing Regions},
+  booktitle = {Proceedings of the Ninth International Conference on Information and
+               Communication Technologies and Development, {ICTD} 2017, Lahore, Pakistan,
+               November 16 - 19, 2017},
+  pages     = {5:1--5:11},
+  year      = {2017},
+  crossref  = {DBLP:conf/ictd/2017},
+  url       = {http://doi.acm.org/10.1145/3136560.3136577},
+  doi       = {10.1145/3136560.3136577},
+  timestamp = {Fri, 17 Nov 2017 09:33:24 +0100},
+  biburl    = {http://dblp.org/rec/bib/conf/ictd/RazaZPCS17},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/ictd/ALCC_poster,
+  author    = {
+               Yasir Zaki and
+               Thomas P{\"{o}}tsch and
+               Tai Liu and
+               Talal Ahmed and
+               Arjuna Sathiaseelan and
+               Jay Chen and
+               Lakshmi Subramanian},
+  title     = {Application-Level Congestion Control: Overcoming TCP’s limitations in Cellular Networks},
+  booktitle = {USENIX ATC '18 Poster Sessions, Boston, USA,
+               July 11 - 13, 2018},
+  year      = {2018},
+  url       = {http://yasirzaki.net/wp-content/papercite-data/pdf/usenix18_poster.pdf},
+  pages = {}
+}
+
+@inproceedings{DBLP:conf/ictd/GAIUS_poster,
+  author    = {
+               Talal Ahmed and Yasir Zaki and Thomas P{\"{o}}tsch and Jay Chen and Arjuna Sathiaseelan and Lakshmi Subramanian},
+  title     = {GAIUS: A New Mobile Content Creation And Diffusion Ecosystem For Emerging Regions},
+  booktitle = {International Conference on Information and Communication Technologies and Development, {ICTD X} 2018, Ahmedabad, India,
+               January 4 - 7, 2019},
+  year      = {2019},
+  url       = {http://yasirzaki.net/wp-content/papercite-data/pdf/Gaius_ICTDX.pdf},
+   pages = {},
+}
+
+
+@proceedings{DBLP:conf/monami/2016,
+  editor    = {Ram{\'{o}}n Ag{\"{u}}ero and Yasir Zaki and Bernd{-}Ludwig Wenning and Anna F{\"{o}}rster and Andreas Timm{-}Giel},
+  title     = {Mobile Networks and Management - 8th International Conference, {MONAMI}
+               2016, Abu Dhabi, United Arab Emirates, October 23-24, 2016, Revised
+               Selected Papers},
+  series    = {Lecture Notes of the Institute for Computer Sciences, Social Informatics
+               and Telecommunications Engineering},
+  volume    = {191},
+  year      = {2017},
+  url       = {https://doi.org/10.1007/978-3-319-52712-3},
+  doi       = {10.1007/978-3-319-52712-3},
+  isbn      = {978-3-319-52711-6},
+  timestamp = {Wed, 24 May 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/monami/2016},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@article{DBLP:journals/lr/MehmoodMKFZGT16,
+  author    = {Yasir Mehmood and Safdar Nawaz Khan Marwat and Koojana Kuladinithi and Anna F{\"{o}}rster and Yasir Zaki and Carmelita G{\"{o}}rg and Andreas Timm{-}Giel},
+  title     = {{M2M} Potentials in logistics and transportation industry},
+  journal   = {Logistics Research},
+  volume    = {9},
+  number    = {1},
+  pages     = {15:1--15:11},
+  year      = {2016},
+  url       = {https://doi.org/10.1007/s12159-016-0142-y},
+  doi       = {10.1007/s12159-016-0142-y},
+  timestamp = {Wed, 14 Jun 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/journals/lr/MehmoodMKFZGT16},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@article{DBLP:journals/ccr/RazaZPCS15,
+  author    = {Ali Raza and Yasir Zaki and Thomas P{\"{o}}tsch and Jay Chen and Lakshmi Subramanian},
+  title     = {Extreme Web Caching for Faster Web Browsing},
+  journal   = {Computer Communication Review},
+  volume    = {45},
+  number    = {5},
+  pages     = {111--112},
+  year      = {2015},
+  url       = {http://doi.acm.org/10.1145/2829988.2790032},
+  doi       = {10.1145/2829988.2790032},
+  timestamp = {Tue, 27 Oct 2015 00:00:00 +0100},
+  biburl    = {http://dblp.org/rec/bib/journals/ccr/RazaZPCS15},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@article{DBLP:journals/ccr/ZakiPCSG15,
+  author    = {Yasir Zaki and Thomas P{\"{o}}tsch and Jay Chen and Lakshminarayanan Subramanian and Carmelita G{\"{o}}rg},
+  title     = {Adaptive Congestion Control for Unpredictable Cellular Networks},
+  journal   = {Computer Communication Review},
+  volume    = {45},
+  number    = {5},
+  pages     = {509--522},
+  year      = {2015},
+  url       = {http://doi.acm.org/10.1145/2829988.2787498},
+  doi       = {10.1145/2829988.2787498},
+  timestamp = {Tue, 27 Oct 2015 00:00:00 +0100},
+  biburl    = {http://dblp.org/rec/bib/journals/ccr/ZakiPCSG15},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigcomm/RazaZPCS15,
+  author    = {Ali Raza and Yasir Zaki and Thomas P{\"{o}}tsch and Jay Chen and Lakshmi Subramanian},
+  title     = {Extreme Web Caching for Faster Web Browsing},
+  booktitle = {Proceedings of the 2015 {ACM} Conference on Special Interest Group
+               on Data Communication, {SIGCOMM} 2015, London, United Kingdom, August
+               17-21, 2015},
+  pages     = {111--112},
+  year      = {2015},
+  crossref  = {DBLP:conf/sigcomm/2015},
+  url       = {http://doi.acm.org/10.1145/2785956.2790032},
+  doi       = {10.1145/2785956.2790032},
+  timestamp = {Thu, 13 Aug 2015 09:04:13 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/sigcomm/RazaZPCS15},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/sigcomm/ZakiPCSG15,
+  author    = {Yasir Zaki and Thomas P{\"{o}}tsch and Jay Chen and Lakshminarayanan Subramanian and Carmelita G{\"{o}}rg},
+  title     = {Adaptive Congestion Control for Unpredictable Cellular Networks},
+  booktitle = {Proceedings of the 2015 {ACM} Conference on Special Interest Group
+               on Data Communication, {SIGCOMM} 2015, London, United Kingdom, August
+               17-21, 2015},
+  pages     = {509--522},
+  year      = {2015},
+  crossref  = {DBLP:conf/sigcomm/2015},
+  url       = {http://doi.acm.org/10.1145/2785956.2787498},
+  doi       = {10.1145/2785956.2787498},
+  timestamp = {Thu, 13 Aug 2015 09:04:13 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/sigcomm/ZakiPCSG15},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@article{DBLP:journals/wpc/MarwatWZGT14,
+  author    = {Safdar Nawaz Khan Marwat and Thushara Weerawardane and Yasir Zaki and Carmelita Goerg and Andreas Timm{-}Giel},
+  title     = {Analysis of Radio Resource Allocation in {LTE} Uplink},
+  journal   = {Wireless Personal Communications},
+  volume    = {79},
+  number    = {3},
+  pages     = {2305--2322},
+  year      = {2014},
+  url       = {https://doi.org/10.1007/s11277-014-1986-6},
+  doi       = {10.1007/s11277-014-1986-6},
+  timestamp = {Wed, 14 Jun 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/journals/wpc/MarwatWZGT14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/imc/ZakiCPAS14,
+  author    = {Yasir Zaki and Jay Chen and Thomas P{\"{o}}tsch and Talal Ahmad and Lakshminarayanan Subramanian},
+  title     = {Dissecting Web Latency in Ghana},
+  booktitle = {Proceedings of the 2014 Internet Measurement Conference, {IMC} 2014,
+               Vancouver, BC, Canada, November 5-7, 2014},
+  pages     = {241--248},
+  year      = {2014},
+  crossref  = {DBLP:conf/imc/2014},
+  url       = {http://doi.acm.org/10.1145/2663716.2663748},
+  doi       = {10.1145/2663716.2663748},
+  timestamp = {Sat, 19 Aug 2017 20:08:45 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/imc/ZakiCPAS14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/monami/PalipanaZTCG14,
+  author    = {Sameera Palipana and Yasir Zaki and Umar Toseef and Jay Chen and Carmelita Goerg},
+  title     = {Scalable and Self-sustained Algorithms for Femto-Cell Interference
+               Mitigation},
+  booktitle = {Mobile Networks and Management - 6th International Conference, {MONAMI}
+               2014, W{\"{u}}rzburg, Germany, September 22-24, 2014, Revised Selected
+               Papers},
+  pages     = {3--17},
+  year      = {2014},
+  crossref  = {DBLP:conf/monami/2014},
+  url       = {https://doi.org/10.1007/978-3-319-16292-8_1},
+  doi       = {10.1007/978-3-319-16292-8_1},
+  timestamp = {Thu, 15 Jun 2017 21:34:05 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/monami/PalipanaZTCG14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/monami/MarwatDLZG14,
+  author    = {Safdar Nawaz Khan Marwat and Yangyang Dong and Xi Li and Yasir Zaki and Carmelita Goerg},
+  title     = {Novel Schemes for Component Carrier Selection and Radio Resource Allocation
+               in LTE-Advanced Uplink},
+  booktitle = {Mobile Networks and Management - 6th International Conference, {MONAMI}
+               2014, W{\"{u}}rzburg, Germany, September 22-24, 2014, Revised Selected
+               Papers},
+  pages     = {32--46},
+  year      = {2014},
+  crossref  = {DBLP:conf/monami/2014},
+  url       = {https://doi.org/10.1007/978-3-319-16292-8_3},
+  doi       = {10.1007/978-3-319-16292-8_3},
+  timestamp = {Fri, 20 Oct 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/monami/MarwatDLZG14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@book{DBLP:books/sp/Zaki13,
+  author    = {Yasir Zaki},
+  title     = {Future Mobile Communications - {LTE} Optimization and Mobile Network
+               Virtualization},
+  series    = {Advanced Studies Mobile Research Center Bremen},
+  volume    = {1},
+  publisher = {Springer},
+  year      = {2013},
+  url       = {https://doi.org/10.1007/978-3-658-00808-6},
+  doi       = {10.1007/978-3-658-00808-6},
+  isbn      = {978-3-658-00807-9},
+  timestamp = {Tue, 16 May 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/books/sp/Zaki13},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/ifip6-6/MarwatPZWG13,
+  author    = {Safdar Nawaz Khan Marwat and Thomas P{\"{o}}tsch and Yasir Zaki and Thushara Weerawardane and Carmelita G{\"{o}}rg},
+  title     = {Addressing the Challenges of E-Healthcare in Future Mobile Networks},
+  booktitle = {Advances in Communication Networking - 19th {EUNICE/IFIP} {WG} 6.6
+               International Workshop, Chemnitz, Germany, August 28-30, 2013. Proceedings},
+  pages     = {90--99},
+  year      = {2013},
+  crossref  = {DBLP:conf/ifip6-6/2013},
+  url       = {https://doi.org/10.1007/978-3-642-40552-5_9},
+  doi       = {10.1007/978-3-642-40552-5_9},
+  timestamp = {Sun, 21 May 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/ifip6-6/MarwatPZWG13},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/ifip6-6/PotschMZG13,
+  author    = {Thomas P{\"{o}}tsch and Safdar Nawaz Khan Marwat and Yasir Zaki and Carmelita G{\"{o}}rg},
+  title     = {Poster Abstract: Performance Evaluation of Machine-to-Machine Communication
+               on Future Mobile Networks in Disaster Scenarios},
+  booktitle = {Advances in Communication Networking - 19th {EUNICE/IFIP} {WG} 6.6
+               International Workshop, Chemnitz, Germany, August 28-30, 2013. Proceedings},
+  pages     = {270--273},
+  year      = {2013},
+  crossref  = {DBLP:conf/ifip6-6/2013},
+  url       = {https://doi.org/10.1007/978-3-642-40552-5_24},
+  doi       = {10.1007/978-3-642-40552-5_24},
+  timestamp = {Sun, 21 May 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/ifip6-6/PotschMZG13},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/monami/MarwatZCTG13,
+  author    = {Safdar Nawaz Khan Marwat and Yasir Zaki and Jay Chen and Andreas Timm{-}Giel and Carmelita G{\"{o}}rg},
+  title     = {A Novel Machine-to-Machine Traffic Multiplexing in {LTE-A} System
+               Using Wireless In-Band Relaying},
+  booktitle = {Mobile Networks and Management - 5th International Conference, {MONAMI}
+               2013, Cork, Ireland, September 23-25, 2013, Revised Selected Papers},
+  pages     = {149--158},
+  year      = {2013},
+  crossref  = {DBLP:conf/monami/2013},
+  url       = {https://doi.org/10.1007/978-3-319-04277-0_12},
+  doi       = {10.1007/978-3-319-04277-0_12},
+  timestamp = {Wed, 24 May 2017 08:27:31 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/monami/MarwatZCTG13},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/mwcn/LiZDZG13,
+  author    = {Xi Li and Yasir Zaki and Yangyang Dong and Nikola Zahariev and Carmelita Goerg},
+  title     = {{SON} potential for {LTE} downlink {MAC} scheduler},
+  booktitle = {6th Joint {IFIP} Wireless and Mobile Networking Conference, {WMNC}
+               2013, Dubai, United Arab Emirates, 23-25 April, 2013},
+  pages     = {1--7},
+  year      = {2013},
+  crossref  = {DBLP:conf/mwcn/2013},
+  url       = {https://doi.org/10.1109/WMNC.2013.6549001},
+  doi       = {10.1109/WMNC.2013.6549001},
+  timestamp = {Fri, 20 Oct 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/mwcn/LiZDZG13},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/mwcn/PotschMZG13,
+  author    = {Thomas Potsch and Safdar Nawaz Khan Marwat and Yasir Zaki and Carmelita G{\"{o}}rg},
+  title     = {Influence of future {M2M} communication on the {LTE} system},
+  booktitle = {6th Joint {IFIP} Wireless and Mobile Networking Conference, {WMNC}
+               2013, Dubai, United Arab Emirates, 23-25 April, 2013},
+  pages     = {1--4},
+  year      = {2013},
+  crossref  = {DBLP:conf/mwcn/2013},
+  url       = {https://doi.org/10.1109/WMNC.2013.6549000},
+  doi       = {10.1109/WMNC.2013.6549000},
+  timestamp = {Thu, 25 May 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/mwcn/PotschMZG13},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/mwcn/SinghXKGZ13,
+  author    = {Amanpreet Singh and Mei Xiang and Andreas K{\"{o}}nsgen and Carmelita G{\"{o}}rg and Yasir Zaki},
+  title     = {Enhancing fairness and congestion control in multipath {TCP}},
+  booktitle = {6th Joint {IFIP} Wireless and Mobile Networking Conference, {WMNC}
+               2013, Dubai, United Arab Emirates, 23-25 April, 2013},
+  pages     = {1--8},
+  year      = {2013},
+  crossref  = {DBLP:conf/mwcn/2013},
+  url       = {https://doi.org/10.1109/WMNC.2013.6549059},
+  doi       = {10.1109/WMNC.2013.6549059},
+  timestamp = {Thu, 25 May 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/mwcn/SinghXKGZ13},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/mwcn/ZakiWLG13,
+  author    = {Yasir Zaki and Thushara Weerawardane and Xi Li and Carmelita G{\"{o}}rg},
+  title     = {{LTE} Radio schedulers analytical modeling using continuous time Markov
+               chains},
+  booktitle = {6th Joint {IFIP} Wireless and Mobile Networking Conference, {WMNC}
+               2013, Dubai, United Arab Emirates, 23-25 April, 2013},
+  pages     = {1--10},
+  year      = {2013},
+  crossref  = {DBLP:conf/mwcn/2013},
+  url       = {https://doi.org/10.1109/WMNC.2013.6548995},
+  doi       = {10.1109/WMNC.2013.6548995},
+  timestamp = {Fri, 20 Oct 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/mwcn/ZakiWLG13},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/pimrc/ZakiWHWG13,
+  author    = {Yasir Zaki and Thushara Weerawardane and Stephan Hauth and Eugen Wallmeier and Carmelita G{\"{o}}rg},
+  title     = {Intelligent traffic enforcement for {LTE} backhaul},
+  booktitle = {24th {IEEE} Annual International Symposium on Personal, Indoor, and
+               Mobile Radio Communications, {PIMRC} 2013, London, United Kingdom,
+               September 8-11, 2013},
+  pages     = {3077--3082},
+  year      = {2013},
+  crossref  = {DBLP:conf/pimrc/2013},
+  url       = {https://doi.org/10.1109/PIMRC.2013.6666675},
+  doi       = {10.1109/PIMRC.2013.6666675},
+  timestamp = {Thu, 25 May 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/pimrc/ZakiWHWG13},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/wowmom/LiMATZG13,
+  author    = {Xi Li and Olivier Mehani and Ram{\'{o}}n Ag{\"{u}}ero and Umar Toseef and Yasir Zaki and Carmelita G{\"{o}}rg},
+  title     = {Evaluating user-centric multihomed flow management in multi-user scenarios},
+  booktitle = {{IEEE} 14th International Symposium on "A World of Wireless, Mobile
+               and Multimedia Networks", WoWMoM 2013, Madrid, Spain, June 4-7, 2013},
+  pages     = {1--7},
+  year      = {2013},
+  crossref  = {DBLP:conf/wowmom/2013},
+  url       = {https://doi.org/10.1109/WoWMoM.2013.6583448},
+  doi       = {10.1109/WoWMoM.2013.6583448},
+  timestamp = {Fri, 20 Oct 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/wowmom/LiMATZG13},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/iwcmc/MarwatZGWT12,
+  author    = {Safdar Nawaz Khan Marwat and Yasir Zaki and Carmelita G{\"{o}}rg and Thushara Weerawardane and Andreas Timm{-}Giel},
+  title     = {Design and performance analysis of bandwidth and QoS aware {LTE} uplink
+               scheduler in heterogeneous traffic environment},
+  booktitle = {8th International Wireless Communications and Mobile Computing Conference,
+               {IWCMC} 2012, Limassol, Cyprus, August 27-31, 2012},
+  pages     = {499--504},
+  year      = {2012},
+  crossref  = {DBLP:conf/iwcmc/2012},
+  url       = {https://doi.org/10.1109/IWCMC.2012.6314254},
+  doi       = {10.1109/IWCMC.2012.6314254},
+  timestamp = {Thu, 15 Jun 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/iwcmc/MarwatZGWT12},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/mobiwac/ToseefZGT12,
+  author    = {Umar Toseef and Yasir Zaki and Carmelita G{\"{o}}rg and Andreas Timm{-}Giel},
+  title     = {Development of simulation environment for multi-homed devices in integrated
+               3GPP and non-3GPP networks},
+  booktitle = {Proceedings of the 10th {ACM} International Symposium on Mobility
+               Management and Wireless Access, {MOBIWAC} '12, Paphos, Cyprus, October
+               21-22, 2012},
+  pages     = {29--36},
+  year      = {2012},
+  crossref  = {DBLP:conf/mobiwac/2012},
+  url       = {http://doi.acm.org/10.1145/2386995.2387001},
+  doi       = {10.1145/2386995.2387001},
+  timestamp = {Thu, 15 Jun 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/mobiwac/ToseefZGT12},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/monami/LiMABZT12,
+  author    = {Xi Li and Olivier Mehani and Ram{\'{o}}n Ag{\"{u}}ero and Roksana Boreli and Yasir Zaki and Umar Toseef},
+  title     = {Evaluating User-Centric Multihomed Flow Management for Mobile Devices
+               in Simulated Heterogeneous Networks},
+  booktitle = {Mobile Networks and Management - 4th International Conference, {MONAMI}
+               2012, Hamburg, Germany, September 24-26, 2012, Revised Selected Papers},
+  pages     = {84--98},
+  year      = {2012},
+  crossref  = {DBLP:conf/monami/2012},
+  url       = {https://doi.org/10.1007/978-3-642-37935-2_7},
+  doi       = {10.1007/978-3-642-37935-2_7},
+  timestamp = {Fri, 20 Oct 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/monami/LiMABZT12},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/monami/ToseefZTG12,
+  author    = {Umar Toseef and Yasir Zaki and Andreas Timm{-}Giel and Carmelita G{\"{o}}rg},
+  title     = {Uplink QoS Aware Multi-homing in Integrated 3GPP and non-3GPP Future
+               Networks},
+  booktitle = {Mobile Networks and Management - 4th International Conference, {MONAMI}
+               2012, Hamburg, Germany, September 24-26, 2012, Revised Selected Papers},
+  pages     = {114--127},
+  year      = {2012},
+  crossref  = {DBLP:conf/monami/2012},
+  url       = {https://doi.org/10.1007/978-3-642-37935-2_9},
+  doi       = {10.1007/978-3-642-37935-2_9},
+  timestamp = {Thu, 15 Jun 2017 21:34:05 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/monami/ToseefZTG12},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/vtc/LiZLLZTG12,
+  author    = {Ming Li and Liang Zhao and Xi Li and Xiaona Li and Yasir Zaki and Andreas Timm{-}Giel and Carmelita G{\"{o}}rg},
+  title     = {Investigation of Network Virtualization and Load Balancing Techniques
+               in {LTE} Networks},
+  booktitle = {Proceedings of the 75th {IEEE} Vehicular Technology Conference, {VTC}
+               Spring 2012, Yokohama, Japan, May 6-9, 2012},
+  pages     = {1--5},
+  year      = {2012},
+  crossref  = {DBLP:conf/vtc/2012s},
+  url       = {https://doi.org/10.1109/VETECS.2012.6240347},
+  doi       = {10.1109/VETECS.2012.6240347},
+  timestamp = {Thu, 19 Oct 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/vtc/LiZLLZTG12},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/wwic/MarwatWZGT12,
+  author    = {Safdar Nawaz Khan Marwat and Thushara Weerawardane and Yasir Zaki and Carmelita G{\"{o}}rg and Andreas Timm{-}Giel},
+  title     = {Performance Evaluation of Bandwidth and QoS Aware {LTE} Uplink Scheduler},
+  booktitle = {Wired/Wireless Internet Communication - 10th International Conference,
+               {WWIC} 2012, Santorini, Greece, June 6-8, 2012. Proceedings},
+  pages     = {298--306},
+  year      = {2012},
+  crossref  = {DBLP:conf/wwic/2012},
+  url       = {https://doi.org/10.1007/978-3-642-30630-3_26},
+  doi       = {10.1007/978-3-642-30630-3_26},
+  timestamp = {Thu, 15 Jun 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/wwic/MarwatWZGT12},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/wwic/ZaharievZLGWT12,
+  author    = {Nikola Zahariev and Yasir Zaki and Xi Li and Carmelita G{\"{o}}rg and Thushara Weerawardane and Andreas Timm{-}Giel},
+  title     = {Optimized Service Aware {LTE} {MAC} Scheduler with Comparison against
+               Other Well Known Schedulers},
+  booktitle = {Wired/Wireless Internet Communication - 10th International Conference,
+               {WWIC} 2012, Santorini, Greece, June 6-8, 2012. Proceedings},
+  pages     = {323--331},
+  year      = {2012},
+  crossref  = {DBLP:conf/wwic/2012},
+  url       = {https://doi.org/10.1007/978-3-642-30630-3_29},
+  doi       = {10.1007/978-3-642-30630-3_29},
+  timestamp = {Thu, 19 Oct 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/wwic/ZaharievZLGWT12},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@article{DBLP:journals/monet/ZakiZGT11,
+  author    = {Yasir Zaki and Liang Zhao and Carmelita G{\"{o}}rg and Andreas Timm{-}Giel},
+  title     = {{LTE} mobile network virtualization - Exploiting multiplexing and
+               multi-user diversity gain},
+  journal   = {{MONET}},
+  volume    = {16},
+  number    = {4},
+  pages     = {424--432},
+  year      = {2011},
+  url       = {https://doi.org/10.1007/s11036-011-0321-7},
+  doi       = {10.1007/s11036-011-0321-7},
+  timestamp = {Thu, 15 Jun 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/journals/monet/ZakiZGT11},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/networking/ZakiKZG11,
+  author    = {Yasir Zaki and Manzoor Ahmed Khan and Liang Zhao and Carmelita G{\"{o}}rg},
+  title     = {Realizing the Broker Based Dynamic Spectrum Allocation through {LTE}
+               Virtualization and Uniform Auctioning},
+  booktitle = {{NETWORKING} 2011 Workshops - International {IFIP} {TC} 6 Workshops,
+               PE-CRN, NC-Pro, WCNS, and {SUNSET} 2011, Held at {NETWORKING} 2011,
+               Valencia, Spain, May 13, 2011, Revised Selected Papers},
+  pages     = {85--97},
+  year      = {2011},
+  crossref  = {DBLP:conf/networking/2011w},
+  url       = {https://doi.org/10.1007/978-3-642-23041-7_9},
+  doi       = {10.1007/978-3-642-23041-7_9},
+  timestamp = {Sat, 16 Sep 2017 12:10:14 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/networking/ZakiKZG11},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/teletraffic/ZhaoLZTG11,
+  author    = {Liang Zhao and Ming Li and Yasir Zaki and Andreas Timm{-}Giel and Carmelita G{\"{o}}rg},
+  title     = {{LTE} virtualization: From theoretical gain to practical solution},
+  booktitle = {23rd International Teletraffic Congress, {ITC} 2011, San Francisco,
+               CA, USA, September 6-9, 2011},
+  pages     = {71--78},
+  year      = {2011},
+  crossref  = {DBLP:conf/teletraffic/2011},
+  url       = {http://ieeexplore.ieee.org/document/6038466/},
+  timestamp = {Sat, 29 Apr 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/teletraffic/ZhaoLZTG11},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/vtc/ZakiWGT11,
+  author    = {Yasir Zaki and Thushara Weerawardane and Carmelita G{\"{o}}rg and Andreas Timm{-}Giel},
+  title     = {Multi-QoS-Aware Fair Scheduling for {LTE}},
+  booktitle = {Proceedings of the 73rd {IEEE} Vehicular Technology Conference, {VTC}
+               Spring 2011, 15-18 May 2011, Budapest, Hungary},
+  pages     = {1--5},
+  year      = {2011},
+  crossref  = {DBLP:conf/vtc/2011s},
+  url       = {https://doi.org/10.1109/VETECS.2011.5956352},
+  doi       = {10.1109/VETECS.2011.5956352},
+  timestamp = {Thu, 15 Jun 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/vtc/ZakiWGT11},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/wwic/KhanZ11,
+  author    = {Manzoor Ahmed Khan and Yasir Zaki},
+  title     = {Dynamic Spectrum Trade and Game-Theory Based Network Selection in
+               {LTE} Virtualization Using Uniform Auctioning},
+  booktitle = {Wired/Wireless Internet Communications - 9th {IFIP} {TC} 6 International
+               Conference, {WWIC} 2011, Vilanova i la Geltr{\'{u}}, Spain, June 15-17,
+               2011. Proceedings},
+  pages     = {39--55},
+  year      = {2011},
+  crossref  = {DBLP:conf/wwic/2011},
+  url       = {https://doi.org/10.1007/978-3-642-21560-5_4},
+  doi       = {10.1007/978-3-642-21560-5_4},
+  timestamp = {Tue, 13 Jun 2017 11:30:16 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/wwic/KhanZ11},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@article{DBLP:journals/jnw/ZakiWTGM10,
+  author    = {Yasir Zaki and Thushara Weerawardane and Andreas Timm{-}Giel and Carmelita G{\"{o}}rg and Gennaro C. Malafronte},
+  title     = {Performance Enhancement due to the {TNL} Congestion Control on the
+               Simultaneous Deployment of both {HSDPA} and {HSUPA}},
+  journal   = {{JNW}},
+  volume    = {5},
+  number    = {7},
+  pages     = {773--781},
+  year      = {2010},
+  url       = {https://doi.org/10.4304/jnw.5.7.773-781},
+  doi       = {10.4304/jnw.5.7.773-781},
+  timestamp = {Sat, 27 May 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/journals/jnw/ZakiWTGM10},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/monami/UdugamaZZGT10,
+  author    = {Asanga Udugama and Liang Zhao and Yasir Zaki and Carmelita G{\"{o}}rg and Andreas Timm{-}Giel},
+  title     = {End-to-End Performance Evaluation of Virtual Networks Using a Prototype
+               Implementation},
+  booktitle = {Mobile Networks and Management - Second International {ICST} Conference,
+               {MONAMI} 2010, Santander, Spain, September 22-24, 2010, Revised Selected
+               Papers},
+  pages     = {38--49},
+  year      = {2010},
+  crossref  = {DBLP:conf/monami/2010},
+  url       = {https://doi.org/10.1007/978-3-642-21444-8_4},
+  doi       = {10.1007/978-3-642-21444-8_4},
+  timestamp = {Thu, 15 Jun 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/monami/UdugamaZZGT10},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/monami/ZakiZGT10,
+  author    = {Yasir Zaki and Liang Zhao and Carmelita G{\"{o}}rg and Andreas Timm{-}Giel},
+  title     = {A Novel {LTE} Wireless Virtualization Framework},
+  booktitle = {Mobile Networks and Management - Second International {ICST} Conference,
+               {MONAMI} 2010, Santander, Spain, September 22-24, 2010, Revised Selected
+               Papers},
+  pages     = {245--257},
+  year      = {2010},
+  crossref  = {DBLP:conf/monami/2010},
+  url       = {https://doi.org/10.1007/978-3-642-21444-8_22},
+  doi       = {10.1007/978-3-642-21444-8_22},
+  timestamp = {Thu, 15 Jun 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/monami/ZakiZGT10},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/mwcn/ZakiZGT10,
+  author    = {Yasir Zaki and Liang Zhao and Carmelita Goerg and Andreas Timm{-}Giel},
+  title     = {{LTE} wireless virtualization and spectrum management},
+  booktitle = {3rd Joint {IFIP} Wireless and Mobile Networking Conference, {WMNC}
+               2010, Budapest, Hungary, 13-15 October, 2010},
+  pages     = {1--6},
+  year      = {2010},
+  crossref  = {DBLP:conf/mwcn/2010},
+  url       = {https://doi.org/10.1109/WMNC.2010.5678740},
+  doi       = {10.1109/WMNC.2010.5678740},
+  timestamp = {Thu, 15 Jun 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/mwcn/ZakiZGT10},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@article{DBLP:journals/ijbdcn/LiZWTGM09,
+  author    = {Xi Li and Yasir Zaki and Thushara Weerawardane and Andreas Timm{-}Giel and Carmelita G{\"{o}}rg and Gennaro C. Malafronte},
+  title     = {Use of Traffic Separation Techniques for the Transport of {HSPA} and
+               {R99} Traffic in the Radio Access Network with Differentiated Quality
+               of Service},
+  journal   = {{IJBDCN}},
+  volume    = {5},
+  number    = {2},
+  pages     = {84--100},
+  year      = {2009},
+  url       = {https://doi.org/10.4018/jbdcn.2009040106},
+  doi       = {10.4018/jbdcn.2009040106},
+  timestamp = {Thu, 19 Oct 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/journals/ijbdcn/LiZWTGM09},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/vtc/WeerawardaneZTMHG09,
+  author    = {Thushara Weerawardane and Yasir Zaki and Andreas Timm{-}Giel and Gennaro C. Malafronte and Stephan Hauth and
+               Carmelita G{\"{o}}rg},
+  title     = {Impact of the Transport Network Congestion Control on the {HSUPA}
+               Performance},
+  booktitle = {Proceedings of the 69th {IEEE} Vehicular Technology Conference, {VTC}
+               Spring 2009, 26-29 April 2009, Hilton Diagonal Mar, Barcelona, Spain},
+  year      = {2009},
+  crossref  = {DBLP:conf/vtc/2009s},
+  url       = {https://doi.org/10.1109/VETECS.2009.5073586},
+  doi       = {10.1109/VETECS.2009.5073586},
+  timestamp = {Thu, 15 Jun 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/vtc/WeerawardaneZTMHG09},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{DBLP:conf/pimrc/LiZWTG08,
+  author    = {Xi Li and Yasir Zaki and Thushara Weerawardane and Andreas Timm{-}Giel and Carmelita G{\"{o}}rg},
+  title     = {{HSUPA} backhaul bandwidth dimensioning},
+  booktitle = {Proceedings of the {IEEE} 19th International Symposium on Personal,
+               Indoor and Mobile Radio Communications, {PIMRC} 2008, 15-18 September
+               2008, Cannes, French Riviera, France},
+  pages     = {1--6},
+  year      = {2008},
+  crossref  = {DBLP:conf/pimrc/2008},
+  url       = {https://doi.org/10.1109/PIMRC.2008.4699684},
+  doi       = {10.1109/PIMRC.2008.4699684},
+  timestamp = {Thu, 19 Oct 2017 01:00:00 +0200},
+  biburl    = {http://dblp.org/rec/bib/conf/pimrc/LiZWTG08},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+</pre>
+  	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="build/bib-list.js"></script>
+		<script type="text/javascript">
+		    $(document).ready(function() {
+        	bibtexify("#bibtex", "pubTable", {'tweet': 'vkaravir'});
+        	// bibtexify("bibtex.bib", "pubTable");
+    		});
+		</script>
+
+		<!-- <script src="js/jquery-1.11.1.min.js"></script> -->
+		<!-- <script src="js/plugins.js"></script> -->
+		<!-- <script src="js/app.js"></script> -->
+		
+	</body>
+
+</html>
