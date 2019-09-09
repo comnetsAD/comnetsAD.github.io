@@ -1592,22 +1592,24 @@ form input[type="submit"], form button, form input[type="reset"] {
     height: 0; }
 
 #branding {
-  margin-top: 50px; }
+  margin-top: 30px; }
   #branding .logo, #branding .logo-text {
     display: inline-block;
     vertical-align: middle; }
   #branding .logo {
     margin-right: 10px; }
   #branding .site-title {
-    font-size: 18px;
-    font-size: 1.2857142857em;
+    margin-top: 25px;
+    font-size: 30px;
+    font-size: 1.875em;
     color: #57068c;
-    margin: 0;
+    margin-bottom: 10px;
     line-height: .5; }
     #branding .site-title a {
       color: #57068c; }
   #branding .site-description {
-    line-height: 0;
+    font-size: 20px;
+    font-size: 1.25em;
     color: #7b7980; }
 
 .main-navigation {
@@ -1642,6 +1644,8 @@ form input[type="submit"], form button, form input[type="reset"] {
         color: #515054; }
       .main-navigation .menu li.current-menu-item a, .main-navigation .menu li:hover a {
         border-top: 2px solid #57068c;
+        font-size: 20px;
+        font-size: 1.25em;
         color: #57068c; }
 
 .mobile-navigation {
