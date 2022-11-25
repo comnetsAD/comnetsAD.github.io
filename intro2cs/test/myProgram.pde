@@ -130,7 +130,6 @@ class Creature
 
     //image (this.img, this.x-this.r, this.y-this.r, this.w, this.h, int(this.f)*this.w, 0, (int(this.f)+1)*this.w, this.h);
     noFill();
-    circle(this.x, this.y, this.r*2);
   }
 }
      
