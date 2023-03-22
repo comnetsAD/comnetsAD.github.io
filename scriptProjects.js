@@ -1,11 +1,18 @@
 // Replace the videoIds array with the video IDs of the YouTube videos you want to showcase
-const videoIds = ['NJvc3ywlfaM', 'lhN3zga0bl8', '3T-F8i-0S14'];
+const videoIds = ['NJvc3ywlfaM', 'lhN3zga0bl8', '3T-F8i-0S14','VtrDtajr8Xc','_XcdxEazAjs','dAHSYJtYkes','41zfW0_Idp0','pcxAYghnZas','j7NDEB_jf_k','bemmWhzlHFU'];
 
 // Add custom text to the corresponding video IDs
 const videoTexts = [
     'Legend of Catto',
     'Surviving Uni',
     'Digger',
+    'Harry Potter',
+    'Physics Ball',
+    'Ludo',
+    'CodeRevolution',
+    'Split',
+    'Pikachu Run',
+    'Tyrian'
 ];
 
 videoIds.forEach((videoId, index) => {
