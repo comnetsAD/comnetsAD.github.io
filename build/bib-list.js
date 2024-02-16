@@ -2610,7 +2610,16 @@ var bibtexify = (function($) {
             itemStr += uriencode(splitName(auth[0].last) + " et al");
           }
           itemStr += ": " + uriencode(entryData.title);
-          itemStr += '" target="_blank">tweet</a>)';
+
+          if (entryData.doi.length < 5) {
+            itemStr += '" target="_blank">tweet</a>)';
+          }
+          else {
+            itemStr += '" target="_blank">tweet</a>) <div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-'+entryData.doi+' " data-hide-no-mentions="true"></div>';
+          }
+          // itemStr += '" target="_blank">tweet</a>) <div class="altmetric-embed" data-handle="10.48550/arXiv.2402.04607"></div>';
+          // console.log ("yasir:"+entryData.doi);
+
           return itemStr;
         },
         // helper functions for formatting different types of bibtex entries
@@ -2772,7 +2781,7 @@ var bibtexify = (function($) {
                               'aaSorting': this.options.sorting,
                               'aoColumns': [ { "sTitle": "Year" },
                                              { "sTitle": "Type", "sType": "type-sort", "asSorting": [ "desc", "asc" ] },
-                                             { "sTitle": "Publication", "bSortable": false }],
+                                             { "sTitle": "Publication", "bSortable": false },],
                               'bPaginate': false
                             }, this.options.datatable));
         if (this.options.visualization) {
