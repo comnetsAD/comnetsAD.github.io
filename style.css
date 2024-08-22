@@ -1690,7 +1690,7 @@ form input[type="submit"], form button, form input[type="reset"] {
       height: 0; }
     .home-slider .slides li {
       padding: 30px;
-      min-height: 390px;
+      min-height: 500px;
       background-size: cover;
       background-position: center center;
       width: 100%;
